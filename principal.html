@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4c4bceee1c.js" crossorigin="anonymous"></script>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/principal.css">
+    <!-- Icon -->
+    <link rel="icon" href="./assets/icon.ico">
+    <title>Pawpulous - Home</title>
+</head>
+
+<body>
+
+    <header>
+
+        <nav class="navBar">
+            <div>
+                <a href="./principal.html"><img class="logo" src="./assets/logo.png" alt="Logo de Vivero Eden"></a>
+            </div>
+            <div class="search">
+                <input type="text" placeholder="Busca a tu mascota.." name="search">
+            </div>
+            <input type="checkbox" id="check">
+            <label for="check" class="boton-menu">
+                <i class="fas fa-bars"></i>
+            </label>
+            <ul class="menu-bar">
+                <li><a class="active" href="#">Home</a></li>
+                <li><a href="#gallery">En adopción</a></li>
+                <li><a href="#footer">Contacto</a></li>
+                <li><a href="./index.html">Cerrar sesión</a></li>
+            </ul>
+        </nav>
+
+        <section>
+            <h1>ADOPTA AHORA</h1>
+            <button>¡Vamos!</button>
+        </section>
+
+    </header>
+
+    <main>
+        <div class="options">
+            <div><img src="./assets/dog-option.png" alt="Dog Option"></div>
+            <div><img src="./assets/cat-option.png" alt="Cat Option"></div>
+            <div><img src="./assets/bunny-option.png" alt="Exotics Option"></div>
+        </div>
+
+        <div class="gallery" id="gallery">
+
+            <div class="card">
+                <div class="animal-img">
+                    <img src="./assets/dog-01.png" alt="Toby for adoption">
+                </div>
+                <div class="animal-info">
+                    <h2>Toby</h2>
+                    <p>Macho de 4 años castrado.</p>
+                    <div class="location">
+                        <img src="./assets/location-dot-solid.svg" alt="Location Dot">
+                        <p>Capital Federal, Buenos Aires</p>
+                    </div>
+                    <a href="#form">¡Adoptame!</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="animal-img">
+                    <img src="./assets/cat-01.png" alt="Michifus for adoption">
+                </div>
+                <div class="animal-info">
+                    <h2>Michifus</h2>
+                    <p>Macho de 6 años sin castrar.</p>
+                    <div class="location">
+                        <img src="./assets/location-dot-solid.svg" alt="Location Dot">
+                        <p>Morón, Buenos Aires</p>
+                    </div>
+                    <a href="#form">¡Adoptame!</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="animal-img">
+                    <img src="./assets/dog-02.png" alt="Leyla for adoption">
+                </div>
+                <div class="animal-info">
+                    <h2>Leyla</h2>
+                    <p>Hembra de 8 meses castrada.</p>
+                    <div class="location">
+                        <img src="./assets/location-dot-solid.svg" alt="Location Dot">
+                        <p>Olivos, Buenos Aires</p>
+                    </div>
+                    <a href="#form">¡Adoptame!</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="animal-img">
+                    <img src="./assets/guinea-pig-01.png" alt="Oliva for adoption">
+                </div>
+                <div class="animal-info">
+                    <h2>Oliva</h2>
+                    <p>Hembra de 3 meses sin castrar.</p>
+                    <div class="location">
+                        <img src="./assets/location-dot-solid.svg" alt="Location Dot">
+                        <p>Avellaneda, Buenos Aires</p>
+                    </div>
+                    <a href="#form">¡Adoptame!</a>
+                </div>
+            </div>
+
+        </div>
+    </main>
+
+    <section id="form" class="form">
+        <form>
+            <h2>Formulario de adopción</h2>
+            <input type="text" placeholder="Nombre" required>
+            <input type="text" placeholder="Apellido" required>
+            <input type="email" placeholder="Email" required>
+            <input type="number" placeholder="Teléfono" required>
+            <input type="text" placeholder="Nombre de la mascota a adoptar">
+            <button>Enviar</button>
+        </form>
+    </section>
+
+    <footer id="footer">
+        <div class="map">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d3284.3400292857614!2d-58.4740084!3d-34.5955623!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb7d79f034031%3A0x29faf2e1c7c09499!2sEncuentro%20de%20Tambores%20en%20Arata!5e0!3m2!1ses-419!2sar!4v1645285149393!5m2!1ses-419!2sar" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+        <div class="social-media">
+            <a href="#">
+                <div>
+                    <i class="fab fa-facebook"></i>
+                    <p>Pawpulous Adopciones</p>
+                </div>
+            </a>
+            <a href="#">
+                <div>
+                    <i class="fab fa-instagram"></i>
+                    <p>@pawpulous.adopciones</p>
+                </div>
+            </a>
+            <a href="#">
+                <div>
+                    <i class="fab fa-twitter"></i>
+                    <p>@pawpulous.adopciones</p>
+                </div>
+            </a>
+        </div>
+    </footer>
+</body>
+
+</html>

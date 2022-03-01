@@ -1,0 +1,84 @@
+/* Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&family=Quicksand:wght@400;600;700&display=swap');
+
+
+/* Reset CSS */
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --light-blue: #cbd8e0;
+    --orange: #feb252;
+    --light-pink: #f9ecca;
+    --salmon: #db8763;
+    --white: #ffffff;
+    --transparent-white: #ffffffea;
+    --gray: #3f3e3e;
+    --light-gray: #a3a2a2;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    font-family: 'Quicksand', sans-serif;
+}
+
+/* Card */
+
+.card {
+    width: 85%;
+    height: 30em;
+
+    background-color: var(--light-pink);
+    border-radius: 3em;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 10em;
+    margin-top: 2em;
+}
+
+h2 {
+    margin-top: 1.8em;
+
+    font-size: 2.3em;
+    color: var(--gray);
+    text-align: center;
+}
+
+p {
+    width: 100%;
+    margin-top: 1em;
+
+    text-align: center;
+    color: var(--gray);
+}
+
+.cat-img {
+    width: 14em;
+    margin-top: 2.2em
+}
+
+@media only screen and (min-width:768px) {
+    .card {
+        width: 45%;
+    }
+
+    .cat-img {
+        margin-top: 3.5em
+    }
+}
